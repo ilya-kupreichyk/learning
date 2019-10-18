@@ -4,7 +4,7 @@
 
 age == 'ECMAScript' ? alert('Правильно' ) : alert('You don"t know ECMAScrip');*/
 
-let userName = prompt('Введите логин', '');
+/*let userName = prompt('Введите логин', '');
 
 if (userName == 'Админ') {
     let password = prompt('Введите пароль', '');
@@ -19,6 +19,7 @@ if (userName == 'Админ') {
     alert('Отменено')
 } else {
     alert('I don"t know you')
-}
+}*/
+
 
 
