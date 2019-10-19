@@ -20,6 +20,22 @@ if (userName == 'Админ') {
 } else {
     alert('I don"t know you')
 }*/
-alert('Hello World!!!');
+
+let x = 0;
+let z = 0;
+labelCancelLoops: while (true) {
+    console.log("Внешний цикл: " + x);
+    x += 1;
+    z = 1;
+    while (true) {
+        console.log("Внутренний цикл: " + z);
+        z += 1;
+        if (z === 10 && x === 10) {
+            break labelCancelLoops;
+        } else if (z === 10) {
+            break;
+        }
+    }
+}
 
 
